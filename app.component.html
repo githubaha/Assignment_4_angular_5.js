@@ -1,0 +1,59 @@
+<div class="container">
+    <app-game-control (output)="storeOutput($event)"></app-game-control>
+    <app-odd *ngFor="let element of array" [input]="element"></app-odd>
+    <app-even *ngFor="let element of array" [input]="element"></app-even>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
+  <button
+    type="button" 
+    class="btn btn-primary"
+    (click)="onClick()"
+  >Display Details</button>
+  
+  <p>{{ secretPassword }}</p>
+
+  <app-assignment></app-assignment>
+</div> -->
+
+<!-- <input type="text" 
+ type="text"
+ class="form-control" 
+ placeholder="Enter User Name" 
+ (input)="inputEvent($event)" value="{{ username }}"/> -->
+
+<!-- <p>{{ username }}</p>
+
+<button 
+ class="btn btn-primary" 
+ [disabled]="!disabled" 
+ (click)="onClick()"
+>Log In</button>
+<hr /> -->
+
+
